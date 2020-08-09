@@ -43,7 +43,10 @@ From our analysis and calculations, we have deduced that Diana DeGette is the wi
 ## Analysis and Challenges
 
 The python script written here to audit this congressional election result, helps automate calculations and will help the election board publish these results as soon as the vote counts are completed and data is available. Not only will this improve the speed at which the election audits are finalized but it will also decrease the chance of human error when using other tools such as excel to perform such calculations. This python script will not only be useful in this election but can also be used in other future elections planned by the Colorado board of elections after some slight modifications if the popular vote is used as the method for determining the winner. The modifications that can be done are as following:
-- Changing the line in the script to the appropriate path when a variable is added to load and save the path as the future election results will be stored in a different CSV file.
-- Changing the indexing in the lines of the script used to extract candidate and county names, since the columns might be different for the data set in the election results CSV file for the future election. 
+  - Changing the line in the script to the appropriate path when a variable is added to load and save the path as the future election results will be stored in a different CSV       file.
+    ![](Resources/script1.PNG)
+
+  - Changing the indexing in the lines of the script used to extract candidate and county names, since the columns might be different for the data set in the election results       CSV file for the future election.
+    ![](Resources/script2.PNG)
 
 Therefore we can see that after these small modifications, this script written for this congressional election can be successfully used to audit future elections.
