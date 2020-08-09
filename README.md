@@ -40,7 +40,7 @@ After the audit of the elections using our Python script, the following outcomes
 
 From our analysis and calculations, we have deduced that Diana DeGette is the winner of this congressional election by popular vote, receiving a total of 272,892 and 73.8% of the votes.
 
-## Analysis and Challenges
+## Election Audit Summary
 
 The python script written here to audit this congressional election result, helps automate calculations and will help the election board publish these results as soon as the vote counts are completed and data is available. Not only will this improve the speed at which the election audits are finalized but it will also decrease the chance of human error when using other tools such as excel to perform such calculations. This python script will not only be useful in this election but can also be used in other future elections planned by the Colorado board of elections after some slight modifications if the popular vote is used as the method for determining the winner. The modifications that can be done are as following:
   - Changing the line in the script to the appropriate path when a variable is added to load and save the path as the future election results will be stored in a different CSV       file.
